@@ -17,6 +17,8 @@
                 <div>
                     <label for="txtFile">Your Name: </label>
                     <input id="txtFile" name="txtFile" type="file" />
+                </div>
+                <div>
                     <input type="submit" value="Submit" />
                 </div>
             </form>
