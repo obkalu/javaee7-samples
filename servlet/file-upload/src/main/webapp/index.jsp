@@ -8,15 +8,15 @@
         <title>JavaEE 7 Samples - Simple Servlet</title>
     </head>
     <body>
-        <h1>Simple Servlet</h1>
+        <h1>Upload a File to the File Upload Servlet</h1>
         Call the <a href="${pageContext.request.contextPath}/SimpleServlet"/>servlet</a>.
         <br/>
         <br/>
         <div>
-            <form action="./SimpleServlet" method="post">
+            <form enctype="multipart/form-data" action="./TestServlet" method="post">
                 <div>
-                    <label for="txtName">Your Name: </label>
-                    <input id="txtName" name="txtName" type="text" />
+                    <label for="txtFile">Your Name: </label>
+                    <input id="txtFile" name="txtFile" type="file" />
                     <input type="submit" value="Submit" />
                 </div>
             </form>
